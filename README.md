@@ -50,7 +50,7 @@ Then: start Claude Code, run `/login`, and **restart once** so it begins watchin
 
 | Path | What it is |
 |---|---|
-| `skills/` | 16 global skills (custom rulebooks + vetted third-party). Copied into `~/.claude/skills/`. |
+| `skills/` | 17 global skills (custom rulebooks + vetted third-party). Copied into `~/.claude/skills/`. |
 | `CLAUDE.md` | Skill **auto-activation rulebook** — loaded into every session; routes requests to the right skill by context. Copied into `~/.claude/CLAUDE.md`. |
 | `settings.json` | Portable baseline: agent-teams enabled, `teammateMode: tmux`, update channel, theme. Copied into `~/.claude/settings.json`. |
 | `bootstrap.sh` / `bootstrap.ps1` | One-shot installer for macOS-Linux / Windows. |
@@ -62,7 +62,8 @@ Then: start Claude Code, run `/login`, and **restart once** so it begins watchin
 `tldr`.
 **Vetted third-party:** `frontend-design`, `web-design-guidelines`,
 `vercel-react-best-practices`, `vercel-composition-patterns`, `vercel-react-native-skills`,
-`github-actions-docs`, `context-engineering-collection`, `skill-creator`, `find-skills`.
+`github-actions-docs`, `context-engineering-collection`, `skill-creator`, `find-skills`,
+`caveman` (ultra-terse "caveman mode" output — cuts ~75% of response tokens).
 
 See `CLAUDE.md` for the full routing table (which skill fires for which kind of task).
 

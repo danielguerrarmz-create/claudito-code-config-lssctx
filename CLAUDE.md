@@ -27,6 +27,7 @@ Activate a skill with the Skill tool (e.g. `/tldr`) or by following its guidance
 | **skill-creator** | Creating, editing, optimizing, or evaluating a skill |
 | **find-skills** | The user wants a capability that might exist as an installable skill ("is there a skill for…") |
 | **tldr** | "What does this file do" / summarize a specific file (`/tldr <path>`) |
+| **caveman** | The user wants ultra-terse, token-saving output ("caveman mode", "be brief", `/caveman`) |
 
 ## Built-in commands also available
 `/code-review` (bug + cleanup review of the diff), `/security-review` (security review of a
