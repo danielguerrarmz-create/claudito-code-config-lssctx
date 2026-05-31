@@ -8,17 +8,17 @@ Claude Code setup everyone else does.
 ## Install the skills (npm / npx — quickest)
 
 The skills are installable directly from this GitHub repo with the open-source `skills`
-CLI (requires **Node.js / npm**, which provides `npx`). Replace `<your-username-or-org>`
+CLI (requires **Node.js / npm**, which provides `npx`). Replace `danielguerrarmz-create`
 with wherever this repo is pushed.
 
 **All skills, installed globally:**
 ```bash
-npx skills add https://github.com/<your-username-or-org>/claudito-code-config-lssctx --skill '*' --global --copy
+npx skills add https://github.com/danielguerrarmz-create/claudito-code-config-lssctx --skill '*' --global --copy
 ```
 
 **A single skill** (e.g. the team-orchestration playbook):
 ```bash
-npx skills add https://github.com/<your-username-or-org>/claudito-code-config-lssctx --skill team-orchestration --global --copy
+npx skills add https://github.com/danielguerrarmz-create/claudito-code-config-lssctx --skill team-orchestration --global --copy
 ```
 
 > `--global` installs into `~/.claude/skills` (every project); `--copy` writes real files
@@ -32,14 +32,14 @@ auto-activation rulebook + settings + dev toolchain), use the bootstrap script b
 
 **macOS / Linux**
 ```bash
-git clone https://github.com/<your-username-or-org>/claudito-code-config-lssctx.git
+git clone https://github.com/danielguerrarmz-create/claudito-code-config-lssctx.git
 cd claudito-code-config-lssctx
 ./bootstrap.sh
 ```
 
 **Windows (PowerShell)**
 ```powershell
-git clone https://github.com/<your-username-or-org>/claudito-code-config-lssctx.git
+git clone https://github.com/danielguerrarmz-create/claudito-code-config-lssctx.git
 cd claudito-code-config-lssctx
 powershell -ExecutionPolicy Bypass -File .\bootstrap.ps1
 ```
