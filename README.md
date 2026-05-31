@@ -8,8 +8,7 @@ Claude Code setup everyone else does.
 ## Install the skills (npm / npx — quickest)
 
 The skills are installable directly from this GitHub repo with the open-source `skills`
-CLI (requires **Node.js / npm**, which provides `npx`). Replace `danielguerrarmz-create`
-with wherever this repo is pushed.
+CLI (requires **Node.js / npm**, which provides `npx`).
 
 **All skills, installed globally:**
 ```bash
