@@ -1,0 +1,17 @@
+# Cross-platform line-ending normalization.
+# Default: treat as text, store as LF in the repo.
+* text=auto eol=lf
+
+# Shell scripts MUST stay LF or they break when run on macOS/Linux.
+*.sh text eol=lf
+
+# PowerShell is happiest with CRLF on Windows.
+*.ps1 text eol=crlf
+
+# Binary assets — never touch.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
