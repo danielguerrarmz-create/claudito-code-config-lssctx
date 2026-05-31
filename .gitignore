@@ -1,0 +1,34 @@
+# --- NEVER commit secrets or auth ---
+.credentials.json
+*.key
+*.pem
+.env
+.env.*
+
+# --- Machine/session state (regenerated locally; do not vendor) ---
+projects/
+sessions/
+session-env/
+shell-snapshots/
+cache/
+backups/
+file-history/
+downloads/
+todos/
+statsig/
+ide/
+history.jsonl
+.last-cleanup
+mcp-needs-auth-cache.json
+
+# --- Local backups created by the bootstrap script ---
+*.bak
+
+# --- Eval / workspace scratch from skill-creator ---
+skills/*-workspace/
+**/opt-results/
+
+# --- OS / editor noise ---
+.DS_Store
+Thumbs.db
+*.log
